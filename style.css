@@ -1,0 +1,1139 @@
+html{
+/*    font-size: 100%;*/
+  font-size: 62.5%;
+}
+
+body{
+    background-color: #FFF;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 1.6rem;
+    
+}
+
+/*
+::-webkit-input-placeholder{
+     top: 50px;
+}
+*/
+
+* {
+   box-sizing: border-box; 
+}
+
+.container{
+    
+    width: 1263px; 
+    height: auto;
+    margin: 0 auto;
+    max-width: 1265px;
+/*    border: 1px solid black;*/
+    padding: 0px;
+    
+} 
+
+nav {
+    background-color: rgb(66, 85, 99);   
+/*    height: 73px;*/
+    line-height:1.75;
+    padding: 8px 12px;
+    width: auto;
+/*    border: 1px solid orange; */
+/*    margin-bottom: 30px;*/
+    
+}
+/*
+.button1 {
+  
+  text-align: center;
+  border: 1px solid red; 
+  height: 72px;    
+}
+*/
+ul{
+    padding: 0px;
+/*    margin: 6px;*/
+    text-align: center;
+    list-style: none;
+}
+ul div{
+    display: inline;
+}    
+ul li {
+     display: inline; 
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 15px;
+    text-align: center;        
+}    
+    
+ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    margin: 10px 10px 10px 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: sans-serif;
+    font-size: 2.0rem;
+/*    font-size: 20px;*/
+/*    20px = 2.0rem*/
+}
+
+ul li a.active, ul li a:hover {
+     
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: aqua;    
+}
+
+
+.section1 {
+/*    border: 0.2px solid green;*/
+
+/*    height: 420px;*/
+    background: url(images/pexels-krivec-small.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+
+     height: 470px;
+    margin-bottom: 40px;
+}
+
+.banner1 {
+/*    background: url(images/pexels-krivec-small.jpg);*/
+/*    background-position: 100% 100%;*/
+/*    background-size: cover;*/
+/*
+    background-size: 100% 100%;
+    background-position: center;
+*/
+    
+/*    border: 1px solid brown;*/
+/*    visibility: hidden;*/
+    
+/*     background-position: center center;*/
+  
+    
+}
+
+h1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 5.5rem;
+/*    font-size: 55px;*/
+    padding-top: 100px;
+/*  border: 0.1px solid black;*/
+}
+
+h2{
+/*    margin-top: 0px;*/
+/*    margin-bottom: 0px;*/
+/*    padding-top: 10px;*/
+    color: whitesmoke;
+    line-height: 0px;
+    font-size: 2.5rem;
+    text-align: center;
+/*  border: 0.1px solid black;*/
+}
+
+/*Start Feature Area smboxes*/
+main { 
+/*  height: 826px;*/
+    margin-bottom: 40px;
+    /* border: 1px solid grey; */
+}
+.smboxes {
+    text-align: center; 
+/*    height: 351px;*/
+    margin-bottom: 40px;
+  /* border: 1px solid skyblue; */
+}
+.image1 {
+    height: 150px;
+    width: 275px;
+    margin: -4px;  
+/*  border: 0.1px solid red;*/
+}
+.box1{     
+/*
+   box-shadow: 0.5px 1px 0.5px 0.1px 
+   rgba(0, 0, 0, 0.3); 
+*/
+   width: 275px;
+   margin-right: 40px;
+   display: inline-block; 
+/*   height: 349px;*/
+/*   border: 0.1px solid gray;*/
+
+}
+.box1:last-child{
+    margin-right: 0px;
+}
+.text {
+/*     background-color: lightgray;*/
+    background: #ddd;
+/*     height: 213px;*/
+    padding-bottom: 18px;
+ 
+}
+.fp1 {
+/*    background-color: lightgray;*/
+    color: green;
+    font-weight: bold;
+    margin-left: 8px;
+    float: left;
+/*    display: block;  */
+}
+.fp2{
+    clear: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    padding-bottom: 2px;
+/*    display: block;*/
+}
+.text a {
+    background-color: green;
+    border: none;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    border-radius: 3px;
+    padding: 7.5px 17px;
+    margin: 0px;
+}
+#b2 {
+    background-color:dodgerblue;
+}
+#b3 {
+    background-color: maroon;
+}
+/* End Feature Area */
+
+
+/*Start Blog Area*/
+.lgboxes {
+    text-align: center;
+/*    height: 436px;*/
+    width: 917px;
+    margin: 0 auto;
+    /* border: 0.1px solid darkgreen; */
+}
+.image2 {
+    height: 200px;
+    width: 434px;  
+}
+.newbox {
+/*    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);*/
+    background: #ddd;
+    width: 437px;
+/*    height: 434px;*/
+    height: auto;
+    margin-right: 40px; 
+    display: inline-block;
+    /* border: 0.1px solid black;  */
+}
+.newbox:last-child{
+    margin-right: 0px;
+}
+#image2{
+/*    margin-top: -30px;*/
+}
+#newbox1{
+    float: left;
+}
+#newbox2 {
+/*    float: right;*/
+}
+.text2 {
+    height:225px;
+}
+.text2 p {
+    padding-bottom: 5px;
+}
+.text2 span {
+    margin-left: 223px;   
+}
+.text2 a {
+    box-shadow: 0.7px 1px 1px 0 rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    padding: 6px 13px;
+    text-transform: capitalize;
+ /* border: 1px solid grey;*/
+} 
+/* End Blog Area */
+
+
+/* Start services area */
+.services {
+/*    border: 0.1px dotted black;*/
+    margin-bottom: 40px;
+}
+.service {
+    background-image: url(images/fedoskamcha.jpg);
+    background-size:100%;
+    background-position: center;
+    height: 275px;
+    width: 100%;  
+}
+.service p{
+    color: whitesmoke;
+    text-align: center;
+    font-size: 2.0rem;
+/*  border: 1px dotted black;*/
+    margin-top: 6px;
+}
+.service h2{
+    color: whitesmoke;
+    line-height: 0px;
+    font-size: 3.0rem;
+    text-align: center;
+    padding-top: 105px; 
+/*  border: 1px dotted black;*/
+}
+ 
+/* End services area */
+
+
+
+/* Start testimonial area */
+
+.smboxes2{
+    text-align: center;
+    /* border: 1px solid blue; */
+/*    height: 380px;*/
+    width: 917px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 40px;     
+}
+.image3 {
+    height: 170px;
+    width: 190px; 
+}
+.box2{
+    background: #ddd;
+    width: 190px;
+    margin-right: 47px;
+/*    display: inline-block;*/
+/*    border: 0.1px solid black;*/
+    height: 410px;
+}
+.box2:last-child {
+    margin-right: 0px;
+}
+#box2 {   
+   float: left;
+}
+.text3 {
+/*    border: 0.1px solid red;    */
+}
+.fp3 {
+   color: dimgrey; 
+}
+.fp4 {
+   height: 124px ;
+}
+#fp4{
+    height: 147px;
+}
+.b4 {
+     box-shadow: 0.7px 1px 1px 0 rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    padding: 8px 18px;
+/*    border: 1px solid grey;  */
+}
+
+/* End testimonial area */
+
+
+
+.wddiv {
+/*    text-align: center;*/
+/*    height: 560px;*/
+    background: #ddd;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+    width: 915px;
+    margin-left: 173px;
+/*    border: 1px solid green;*/
+    margin-bottom: 40px;
+}
+.wdimage {
+    height: 350px;
+    width: 915px;   
+}
+.text4 {
+    height: 245px;
+}
+.fp5{
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+.fp6{
+    margin-left: 15px;
+}   
+.text4 a {
+    box-shadow: 0.7px 1px 1px 0 rgba(0, 0, 0, 0.5);
+    background-color: whitesmoke;
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    padding: 8px 18px; 
+}
+.text4 span {
+    margin-left: 15px;
+}
+
+
+/* Start form section */
+
+.formdiv{
+    /* border: 0.1px solid orange; */
+    margin-bottom: 90px;
+}
+form {
+    background-image: url(images/mateusz.jpg);
+    background-size: 100%;
+    background-position: top;
+    height: 480px;
+    width: 100%;
+    text-align: center;
+    padding-top: 30px;
+}
+.pdiv{
+/*    border: 2px solid black;*/
+    margin-left: 175px;
+    margin-right: 175px;
+    margin-bottom: 25px;
+}
+.inputdiv{
+/*    border: 2px solid red;*/
+    margin-left: 175px;
+    margin-right: 175px;
+    height: 234px;  
+}
+form h3 {
+    color: white;
+    font-weight: normal;
+    font-size: 3.0rem;
+    margin-bottom: 30px;   
+}
+.pdiv p {
+    background-color: rgba(255, 255, 255, 0.5);
+/*
+    margin-right: 100px;
+    margin-left: 100px;
+*/
+    padding-top: 20px;
+    padding-bottom: 20px; 
+    border: 0.0px solid white;
+    border-radius: 3px;
+    word-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+input {
+    height: 37px;
+    width: 370px;
+    margin-bottom: 25px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 0.0px solid white;
+    border-radius: 3px; 
+}
+#message {
+    background-color: rgba(255, 255, 255, 0.7);
+    height: 167px;
+    width: 380px;
+    float: right;
+}
+#message placeholder {
+    color: aqua;
+}
+.inputdiv button {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: #2d2323;
+    padding: 10px 17px;
+    border: 1px solid whitesmoke;
+    border-radius: 6px;
+    margin-top: 130px;
+    margin-left: 93.8px;
+
+}
+inputdiv span {
+    
+}
+
+/* End form section */
+
+
+.use {
+    text-align: center;
+/*    height: 105px;*/
+/*    border: 1px solid green;*/
+    margin-bottom: 30px;
+    margin-top: -50px;
+}
+.use h3 {
+    font-weight: normal;
+    font-size: 3.0rem;
+    color: darkgreen;
+    margin-top: 0px;  
+}
+.use p {
+    font-weight: normal;
+    color: grey;
+    font-size: 1.9rem; 
+}
+
+
+
+footer {
+    text-align: center;
+    color: grey;
+    font-weight: normal;
+    margin-top: 25px;
+    height: 210px;
+    font-size: 1.8rem;
+    height: 150px;
+/*    border: 1px solid red;*/
+}
+
+hr {
+    color: grey;
+}
+
+
+/* Media Queries
+----------------------*/
+
+/*
+@media only screen and (min-width: 992px) and (max-width: 1199px) { 
+}
+*/
+
+/*  Tablet Layout: 768px. */
+@media (min-width: 768px) and (max-width: 992px){
+
+    
+html{
+    font-size: 9px;
+    }        
+nav {
+width: 991px;   
+height: 77px;    
+    }   
+.section1 {
+ width: 991px;        
+    } 
+    
+/*Start Feature Area smboxes*/ 
+#smboxes {
+   width: 992px;
+/*    text-align: center;*/ 
+   display: flex;
+   justify-content: center;
+/*   border: 1px solid skyblue;*/
+}   
+.box1{     
+   width: 275px;
+    flex-shrink: 2;
+/*    flex-basis: 275px;*/   
+/*   height: 349px;*/
+/*   border: 0.1px solid gray;*/
+} 
+/* End Feature Area */    
+ 
+/*Start Blog Area*/
+.lgboxes {
+    width: 992px;
+    display: flex;
+    margin-left: 0px;
+/*    border: 0.1px solid darkgreen;*/
+}
+.newbox { 
+    width: 435px;
+    height: auto;
+    flex-shrink: 1;
+    margin: 0 auto;
+    margin-right: 0px;
+/*    border: 0.1px solid black; */
+}  
+.newbox:last-child{
+    margin-right: 40px;
+} 
+.text2 {
+    height:190px;
+}  
+/* End Blog Area */
+    
+/* Start services area */    
+.services {
+    width: 992px;
+/*    border: 1px solid red;*/
+}
+/* End services area */
+    
+/* Start testimonial area */
+.smboxes2{
+    width: 992px;
+    display: flex;   
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+/*    border: 1px solid blue;*/
+} 
+.box2{
+    width: 190px;
+    margin-right: 47px;
+    height: 387px;
+/*    border: 0.1px solid black;*/
+}    
+.fp4 {
+   height: 109px ;
+}
+#fp4{
+    height: 137px;
+} 
+/* End testimonial area */
+    
+.wddiv {
+    margin-left: 37px;
+/*    border: 0.2px solid red;*/
+}   
+.text4 {
+    height: 200px;
+}    
+
+/* Start form section */
+.formdiv{
+    width: 918px;
+    margin-left: 35px;
+/*    border: 0.1px solid orange;*/
+}
+form {
+    height: 480px;
+    width: 100%;
+    padding-top: 30px;
+}
+.pdiv{
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+/*    border: 0.2px solid black;*/
+}
+.inputdiv{
+    width: 600px;
+    margin: 0 auto;
+    height: 160px;
+/*    border: 2px solid red;*/
+}
+form h3 {
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;   
+}
+.pdiv p {
+    padding-top: 15px;
+    padding-bottom: 15px; 
+/*    border: 0.1px solid white;*/
+    border-radius: 3px;
+    word-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+input {
+    height: 35px;
+    width: 260px;
+    margin-bottom: 25px;
+    float: left;
+}
+#message {
+    height: 155px;
+    width: 260px;
+    float: right;
+}  
+.inputdiv button {
+    margin-top: 125px;
+    margin-left: 8px;
+/*    border: 1px solid whitesmoke;*/
+} 
+    
+/* End form section */
+
+.use {
+    width: 992px;
+/*    border: 0.1px solid green;*/
+}
+
+footer {
+    width: 992px;
+/*    border: 0.1px solid red;*/
+}
+
+}
+
+
+
+@media only screen and (max-width: 767px){
+
+html{
+    font-size: 9px;
+    }     
+    
+nav {
+width: 747px; 
+height: 77px;     
+    }
+    
+.section1 {
+ width: 777px;        
+    } 
+    
+/*Start Feature Area smboxes*/ 
+#smboxes {
+   width: 767px;
+    height: auto;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;    
+/*   border: 1px solid skyblue;*/
+}       
+.box1{     
+   width: 275px;
+    flex-shrink: 2;
+    margin-bottom: 30px;
+/*   border: 0.1px solid gray;*/
+} 
+.box1:last-child{
+ margin-bottom: 0px;        
+    }
+#box1mid{
+ margin-right: 0px;        
+    }    
+/* End Feature Area */    
+ 
+/*Start Blog Area*/
+.lgboxes {
+    width: 768px;
+    display: flex;
+    margin-left: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+/*    border: 0.1px solid darkgreen;*/
+}
+.newbox { 
+    width: 435px;
+    height: auto;
+    flex-shrink: 1;
+    margin-right: 0px;
+    margin-bottom: 30px;
+/*    border: 0.1px solid black; */
+}  
+.newbox:last-child{
+  margin-bottom: 0px;
+    }    
+.text2 {
+    height:190px;
+}  
+/* End Blog Area */
+    
+/* Start services area */    
+.services {
+    width: 750px;
+/*    border: 1px solid red;*/
+}
+.service p{
+    color: whitesmoke;
+    text-align: center;
+/*  border: 1px dotted black;*/
+    margin-top: 4px;
+    padding-top: 15px;
+}
+.service h2{
+    color: whitesmoke;;
+    text-align: center;
+    padding-top: 95px; 
+/*  border: 1px dotted black;*/
+}   
+#cl {
+     color: white;   
+    }    
+/* End services area */
+    
+/* Start testimonial area */
+.smboxes2{
+    width: 767px;   
+    margin-left: 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+/*    border: 1px solid blue;*/
+} 
+.box2{
+    width: 190px;
+    margin-left: 60px;
+/*    margin-right: 98px;*/
+    height: 387px;
+/*    border: 0.1px solid black;*/ 
+}    
+.t2 {
+/*    margin-right: 0px;*/
+    margin-left: 14px;
+    margin-top: 30px;
+    }    
+.box2:last-child{
+ margin-top: 30px;        
+    }    
+.fp4 {
+   height: 109px ;
+}
+#fp4{
+    height: 137px;
+} 
+/* End testimonial area */
+    
+.wddiv {
+    width: 695px;
+    margin-left: 30px;
+/*    border: 0.2px solid red;*/
+} 
+.wdimage {
+    height: 330px;
+    width: 695px;   
+}    
+.text4 {
+    height: 245px;
+}    
+
+/* Start form section */
+.formdiv{
+    width: 695px;
+    margin-left: 30px;
+/*    border: 0.1px solid orange;*/
+}
+form {
+    height: 466.5px;
+    width: 100%;
+    padding-top: 30px;
+}
+.pdiv{
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+/*    border: 0.2px solid black;*/
+}
+.inputdiv{
+    width: 600px;
+    margin: 0 auto;
+    height: 160px;
+/*    border: 2px solid red;*/
+}
+form h3 {
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;   
+}
+.pdiv p {
+    padding-top: 15px;
+    padding-bottom: 15px; 
+/*    border: 0.1px solid white;*/
+    border-radius: 3px;
+    word-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;    
+}
+input {
+    height: 35px;
+    width: 260px;
+    margin-bottom: 25px;
+    float: left;
+}
+#message {
+    height: 155px;
+    width: 260px;
+    float: right;
+}  
+.inputdiv button {
+    margin-top: 125px;
+    margin-left: 8px;
+/*    border: 1px solid whitesmoke;*/
+} 
+/* End form section */
+
+.use {
+    width: 760px;
+    text-align: center;
+/*    border: 0.1px solid green;*/
+}
+
+footer {
+    width: 760px;
+/*    border: 0.1px solid red;*/
+}
+      
+}
+
+
+
+
+/*
+
+@media only screen and (max-width: 610px) {
+    
+html{
+    font-size: 7.5px;
+    }  
+    
+nav {
+width: 590px; 
+height: 100px;
+
+    
+    }
+    
+.section1 {
+ width: 600px;        
+    }     
+ul{ 
+    margin: 0px;
+
+    width: auto ;
+    display:flex;
+
+    flex-wrap: wrap;
+}
+ ul li {
+    display: inline; 
+    border: 1px solid grey;
+    margin: 3px;
+    margin-right: 9px;
+    padding: 4px;
+    padding-right: 8px;
+    text-align: center; 
+    width: 120px;
+    flex-shrink: 1; 
+}    
+  
+ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 2.0rem;
+}
+*/
+     
+
+ 
+/*    Wide Mobile Layout: 480px.     */
+@media only screen and (max-width: 500px) {
+       
+html{
+ font-size: 7.75px;
+    }  
+    
+nav {
+width: 490px; 
+height: 100px;
+    }
+    
+.section1 {
+ width: 490px;        
+    } 
+  
+ul{ 
+    margin: 0px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ ul li {
+    border: 1px solid grey;
+    margin: 3px;
+    margin-right: 9px;
+    padding: 4px;
+    padding-right: 8px;
+    width: 120px;
+}  
+
+/* Start feature area    */
+#smboxes {
+   width: 480px;
+    height: auto;
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;    
+/*   border: 1px solid skyblue;*/
+}       
+.box1{     
+   width: 275px;
+   margin-right: 0px;
+   margin-bottom: 30px;
+/*   border: 0.1px solid gray;*/
+} 
+.box1:last-child{
+ margin-bottom: 0px;        
+    }
+/* End Feature Area */    
+ 
+/*Start Blog Area*/
+.lgboxes {
+    width: 485px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+/*    border: 0.1px solid darkgreen;*/
+}
+.newbox { 
+    height: 385px;
+/*    border: 0.1px solid black; */
+}      
+/* End Blog Area */
+    
+/* Start services area */   
+.services {
+    width: 490px;
+/*    border: 1px solid red;*/
+}  
+/* End services area */
+    
+/* Start testimonial area */
+.smboxes2{
+    width: 485px;   
+/*    border: 1px solid blue;*/
+} 
+.box2{
+    width: 175px;
+    margin-left: 0px;
+    margin-right: 20px;
+    height: 337px;
+/*    border: 0.1px solid black; */
+}  
+.image3 {
+    height: 170px;
+    width: 175px; 
+} 
+.t3{
+    margin-right: 0px;
+    }        
+.b4 {
+    position: relative;
+    bottom: 35px;
+    padding: 5px 14px;
+    border: 1px solid grey; 
+}    
+/* End testimonial area */
+    
+.wddiv {
+    width: 457px;
+    margin-left: 16.5px;
+/*    border: 0.2px solid red;*/
+} 
+.wdimage {
+    height: 330px;
+    width: 457px;   
+}    
+.text4 {
+    height: 230px;
+}   
+.text4 a {
+
+    position: relative;
+    top: 3px;
+    padding: 7px 16px; 
+}    
+
+/* Start form section */
+.formdiv{
+    width: 477px;
+    margin-left: 6.5px;
+    overflow-x:hidden;
+/*    border: 0.1px solid orange;*/
+}
+form {
+    height: 367px;
+    width: 100%;
+    padding-top: 30px;
+}
+.pdiv{
+    height: 100px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 13px;
+/*    border: 0.1px solid black;*/
+}
+.inputdiv{
+    width: 485px;
+    margin: 0 auto;
+    height: 130px;
+/*    border: 2px solid red;*/
+}
+form h3 {
+    color: white;
+    font-weight: normal;
+    margin-bottom: 10px; 
+    padding-top: 0px;
+    margin-top: 3px;
+}
+.pdiv p {
+    padding-top: 8px;
+    padding-bottom: 15px; 
+/*    border: 0.1px solid white;*/
+    border-radius: 3px;
+    word-spacing: 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+input {
+    height: 25px;
+    width: 185px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    float: left;
+}
+#message {
+    height: 125px;
+    width: 185px;
+    margin-right: 24px;
+    float: right;
+}  
+.inputdiv button {
+    margin-top: 94px;
+    margin-left: 14px;
+/*    border: 1px solid whitesmoke;*/
+} 
+/* End form section */
+
+.use {
+    margin-top: -30px;
+    width: 480px;
+/*    border: 0.1px solid green;*/
+}
+
+footer {
+    width: 480px;
+/*    border: 0.1px solid red;*/
+}    
+
+    }    
+     
+    
+
+
